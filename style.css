@@ -1,0 +1,258 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: url("https://cdn.pixabay.com/photo/2013/07/18/20/25/boat-164977_1280.jpg"); */
+  background: #9ea4a9;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+
+.movie {
+  width: 300px;
+  height: 600px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border-radius: 3px;
+  margin: 0 20px 20px 20px;
+  box-shadow: 0 0 20px black;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(194, 187, 187, 0) 10%,
+    rgba(221, 13, 13, 0.06) 39%,
+    rgba(47, 45, 47, 0.88) 45%
+  );
+}
+.movie-img-1 {
+  background: url("https://cdn.marvel.com/content/1x/fox_x-mendaysoffuturepast_lob_crd_01.jpg");
+}
+.movie-img-2 {
+  background: url("https://cdn.marvel.com/content/1x/guardiansofthegalaxyvolume3_lob_crd_03.jpg");
+}
+.movie-img-3 {
+  background: url("https://cdn.marvel.com/content/1x/spider-mannowayhome_lob_crd_03.jpg");
+}
+.movie-img-4 {
+  background: url("https://cdn.marvel.com/content/1x/avengersendgame_lob_crd_05_2.jpg");
+}
+.movie-img-5 {
+  background: url("https://cdn.marvel.com/content/1x/thorthedarkworld_lob_crd_02_1.jpg");
+}
+.movie-img-6 {
+  background: url("https://cdn.marvel.com/content/1x/eternals_lob_crd_06.jpg");
+}
+.movie-img-7 {
+  background: url("https://cdn.marvel.com/content/1x/shangchi_lob_crd_07.jpg");
+}
+.movie-img-8 {
+  background: url("https://cdn.marvel.com/content/1x/blackwidow_lob_crd_06.jpg");
+}
+.movie-img-9 {
+  background: url("https://cdn.marvel.com/content/1x/blackpanther_lob_crd_01_4.jpg");
+}
+.movie-img-10 {
+  background: url("https://cdn.marvel.com/content/1x/deadpool2_lob_crd_02.jpg");
+}
+
+.movie-img-1 {
+  height: 65%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+.movie-img-2 {
+  height: 65%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  /* background-position: 0px; */
+  background-size: cover;
+  background-blend-mode: screen;
+}
+.movie-img-3 {
+  height: 65%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  /* background-position: 0px; */
+  background-size: cover;
+  background-blend-mode: screen;
+}
+.movie-img-4 {
+  height: 65%;
+  width: 100%;
+  /* position: relative; */
+  background-size: cover;
+  background-blend-mode: screen;
+}
+.movie-img-5 {
+  height: 65%;
+  width: 100%;
+  /* position: relative; */
+  background-size: cover;
+  background-blend-mode: screen;
+}
+.movie-img-6 {
+  height: 65%;
+  width: 100%;
+  /* position: relative; */
+  background-size: cover;
+  background-blend-mode: screen;
+}
+.movie-img-7 {
+  height: 60%;
+  width: 100%;
+  /* position: relative; */
+  background-size: cover;
+  background-blend-mode: screen;
+}
+.movie-img-8 {
+  height: 65%;
+  width: 100%;
+  /* position: relative; */
+  background-size: cover;
+  background-blend-mode: screen;
+}
+.movie-img-9 {
+  height: 60%;
+  width: 100%;
+  /* position: relative; */
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+.movie-img-10 {
+  height: 60%;
+  width: 100%;
+  /* position: relative; */
+  background-size: cover;
+  background-blend-mode: screen;
+}
+.movie-img span {
+  position: absolute;
+  top: 10;
+  left: 10;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+.movie-info {
+  color: #bbb;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.movie-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.movie-text .likes {
+  margin-left: 100px;
+}
+
+.movie-text .likes li {
+  display: inline-block;
+  margin: 0 5px;
+  /* font-size: 1rem; */
+}
+.title {
+  font-size: 1.3rem;
+  color: rgb(227, 217, 212);
+  /* font-family: "Open Sans", sans-serif; */
+}
+.genres {
+  font-size: 0.8rem;
+  color: gray;
+  margin-top: -2px;
+  /* font-family: "Open Sans", sans-serif; */
+}
+.movie-text p:nth-child(1) {
+  font-size: 0.8rem;
+  color: whitesmoke;
+}
+
+.likes {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.likes li {
+  margin-left: 10px;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  margin: 5px 0;
+}
+
+.text {
+  font-size: 0.7rem;
+  color: gray;
+  margin-bottom: 5px;
+}
+.cast {
+  font-size: 0.64rem;
+  /* font-style: italic; */
+  color: #f0e2e2;
+}
+.actions {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: transparent;
+  border: 1px solid #f44336;
+  color: #f44336;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+button:hover i {
+  color: #eee;
+}
+button:hover {
+  color: #eee;
+  background-color: #f44336;
+}
+button.fa-solid {
+  font-size: 10px;
+}
+.fa-solid {
+  color: #e11c0e;
+}
+.actions-more,
+.fa-solid {
+  margin-right: 2px;
+  padding: 2px;
+}
+
